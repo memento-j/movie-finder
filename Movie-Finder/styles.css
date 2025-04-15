@@ -1,0 +1,59 @@
+/* google fonts import for open sans */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1F;
+    color: #7B7A8E;
+}
+
+.container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 1fr 200px;
+    grid-template-areas: 
+        "header"
+        "content"
+        "footer";
+}
+
+header {
+    grid-area: header;
+}
+
+.content {
+    grid-area: content;
+    height: 60vh;
+}
+
+footer {
+    grid-area: footer;
+    margin-top: 50px;
+}
+
+header h1 {
+    padding-top: 150px;
+}
+
+#searchImage {
+    width: 20px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #7B7A8E;
+    cursor: pointer;
+}
+
+footer p a:hover {
+    color: lightgrey;
+    text-decoration: underline;
+}
+
+#TMDBLogo {
+    width: 100px;
+    
+}

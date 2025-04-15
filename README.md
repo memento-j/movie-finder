@@ -1,1 +1,14 @@
-# Going to do something with the movies api to practice HTML, CSS, and vanilla JS (not sure exaclty what yet?)
+# Movie Finder
+
+Movie Finder application to practice my HTML, CSS, and plain JavaScript 😀👍
+
+
+## How it was made
+
+**Tech used:** HTML, CSS, JavaScript
+
+Need access to TMDB API (https://developer.themoviedb.org/docs/getting-started) via an API key
+
+## Optimizations
+
+## Lessons Learned
