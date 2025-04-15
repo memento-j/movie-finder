@@ -1,0 +1,1 @@
+# Going to do something with the movies api to practice HTML, CSS, and vanilla JS (not sure exaclty what yet?)
