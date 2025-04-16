@@ -39,28 +39,40 @@ header h1 {
     font-size: 2.5em;
 }
 
-#searchBar {
+.search {
+    margin-left: .5fr;
+    display: flex;
+    position: relative; 
+    width: 500px;
+    margin: auto;
+}
+
+.search input{
     border: none;
     appearance: none;
     background: #31313C;
     color: #7B7A8E;
-    padding: 12px;
     font-size: 1em;
-    margin-left: 340px;
-    border-radius: 5px;
+    border-radius: 20px;
     outline: none;
-    text-align: center;
+    width: 500px;
+    padding-left: 55px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .4);
+    padding-top: 16px;
+    padding-bottom: 15px;
 }
 
 ::placeholder {
     color: #7B7A8E;
 }
 
-#searchImage {
-    width: 40px;
-    float: right;
-    padding-right: 300px;
+.search img {
+    width: 30px;
+    height: 30px;
     cursor: pointer;
+    position: absolute; 
+    top: 9px; 
+    left: 15px;
 }
 
 footer p a {
