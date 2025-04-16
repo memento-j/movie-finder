@@ -36,10 +36,31 @@ footer {
 
 header h1 {
     padding-top: 150px;
+    font-size: 2.5em;
+}
+
+#searchBar {
+    border: none;
+    appearance: none;
+    background: #31313C;
+    color: #7B7A8E;
+    padding: 12px;
+    font-size: 1em;
+    margin-left: 340px;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+::placeholder {
+    color: #7B7A8E;
 }
 
 #searchImage {
-    width: 20px;
+    width: 40px;
+    float: right;
+    padding-right: 300px;
+    cursor: pointer;
 }
 
 footer p a {
@@ -55,5 +76,4 @@ footer p a:hover {
 
 #TMDBLogo {
     width: 100px;
-    
 }

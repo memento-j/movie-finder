@@ -1,6 +1,6 @@
 # Movie Finder
 
-Movie Finder application to practice my HTML, CSS, and plain JavaScript 😀👍
+Movie searcher application to practice my HTML, CSS, and plain JavaScript 😀👍
 
 
 ## How it was made
