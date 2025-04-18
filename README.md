@@ -1,7 +1,6 @@
 # Movie Finder
 
-Movie searcher application to practice my HTML, CSS, and plain JavaScript 😀👍
-
+Basic movie searcher application that outputs up to the first 60 results from TMDB API
 
 ## How it was made
 
