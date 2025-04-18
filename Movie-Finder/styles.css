@@ -13,11 +13,11 @@ body {
     display: grid;
     text-align: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 300px 1fr 200px;
+    grid-template-rows: 300px 1fr;
     grid-template-areas: 
         "header"
-        "content"
-        "footer";
+        "content";
+    height: 100vh;
 }
 
 header {
@@ -26,13 +26,8 @@ header {
 
 .content {
     grid-area: content;
-    height: 60vh;
 }
 
-footer {
-    grid-area: footer;
-    margin-top: 50px;
-}
 
 header h1 {
     padding-top: 150px;
@@ -60,11 +55,18 @@ header h1 {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, .4);
     padding-top: 16px;
     padding-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 ::placeholder {
     color: #7B7A8E;
 }
+
+input:is(:-webkit-autofill, :autofill) {
+    border: none;
+    appearance: none;
+    background: #31313C;
+  }
 
 .search img {
     width: 30px;
@@ -73,6 +75,10 @@ header h1 {
     position: absolute; 
     top: 9px; 
     left: 15px;
+}
+
+footer {
+    margin: 30px;
 }
 
 footer p a {
@@ -88,4 +94,22 @@ footer p a:hover {
 
 #TMDBLogo {
     width: 100px;
+}
+
+.moviesContainer {
+    display: grid;
+    width: 80vw;
+    margin: auto;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.movie {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+    text-align: center;
+    padding: 20px;
+    margin: 10px 10px
+}
+
+.movieImage {
+    margin-top: 10px;
 }
