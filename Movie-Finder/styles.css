@@ -112,4 +112,6 @@ footer p a:hover {
 
 .movieImage {
     margin-top: 10px;
+    height: 300px;
+    width: 200px;
 }
